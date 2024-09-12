@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Activity 2</title>
+        <style>
+            th, td {
+                background-color: #eeeeee;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="images/image.jpg" alt="Indiana University Sample Gates" title="Indiana University Sample Gates" width="512">
+        <br>
+        <a href="mailto:zacharaa@gmatc.matc.edu">Email Me</a>
+
+        <table id="simple-table">
+            <tr>
+                <th></th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th></th>
+                <th>Wed</th>
+                <th>Thu</th>
+            </tr>
+            <tr>
+                <th>Mice Reported:</th>
+                <td>12,508</td>
+                <td>11,092</td>
+                <td>(Strategic Feline Installed)</td>
+                <td>8</td>
+                <td>12</td>
+            </tr>
+        </table>
+
+        <table id="complex-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th scope="col">Monday</th>
+                    <th scole="col">Tuesday</th>
+                    <th scope="col">Wednesday</th>
+                    <th scope="col">Thursday</th>
+                    <th scope="col">Friday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Breakfast</th>
+                    <td>Cereal</td>
+                    <td>Eggs</td>
+                    <td colspan="2">School Breakfast</td>
+                    <td>Eggs</td>
+                </tr>
+                <tr>
+                    <th scope="row">Lunch</th>
+                    <td>Hamburger</td>
+                    <td>Ramen</td>
+                    <td colspan="2">School Lunch</td>
+                    <td rowspan="2">TBD</td>
+                </tr>
+                <tr>
+                    <th scope="row">Dinner</th>
+                    <td colspan="3">Steak</td>
+                    <td>Giant Feast</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Snacks</th>
+                    <td colspan="5">TBD</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
