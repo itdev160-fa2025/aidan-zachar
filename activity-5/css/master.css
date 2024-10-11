@@ -1,0 +1,38 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0 10rem;
+}
+
+h1,h2 {
+    margin: 0 0;
+}
+
+#credits {
+    color: #86868b;
+    padding: 0.5rem 0;
+}
+#header-image {
+    border-radius: 1rem;
+}
+
+.extension-container {
+    background-color: rgb(245, 245, 247);
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+.desc {
+    border-radius: 1rem;
+    background-color: white;
+    margin: 0;
+    padding: 0.1rem 1rem;
+}
+.auth {
+    font-weight: bold;
+}
+.DLs {
+    color: #86868b;
+}
+.stars {
+    color: green;
+}
