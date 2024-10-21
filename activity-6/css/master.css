@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.messages {
+    color: white;
+    background-color: #161617;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.in-message {
+    background-color: #38503B;
+    padding: 0.25rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 1rem;;
+}
+
+.out-message {
+    background-color: #FA0A4C;
+    padding: 0.25rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 1rem;
+}
+
+input {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    font-family: 'Poppins';
+    background-color: rgb(245,245,247);
+}
+button {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    background-color: #3EA54A;
+}
