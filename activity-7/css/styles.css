@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #161617;
+    color: white;
+    padding: 0 2rem;
+}
+h1,h2,h3,h4,h5 {
+    font-weight: 500;
+}
+
+input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1rem 0 0 1rem;
+    font-family: 'Poppins';
+    margin-right: 0;
+    min-width: 25%;
+}
+button {
+    border-radius: 0 1rem 1rem 0;
+    padding: 0.5rem;
+    font-family: 'Poppins';
+    margin-left: 0;
+    border: none;
+    background-color: #0077ED;
+    color: white;
+    transition: 0.2s;
+}
+button:hover {
+    background-color: #2086ec;
+    padding: 0.5rem 0.75rem;
+}
+
+ul {
+    list-style-type: none;
+}
+#completed-list li {
+    text-decoration: line-through;
+    color: grey;
+}
+#active-list li {
+    transition: 0.2s;
+    padding: 0.25rem;
+}
+
+#active-list li:hover {
+    transform: translateX(8px);
+    background-color: #28282a;
+    border-radius: 0 1rem 1rem 0;
+    padding: 0.25rem;
+}
+
+@keyframes vanish {
+    from {
+        filter: blur(0px);
+        font-size: 1rem;
+    }
+    to {
+        filter: blur(16px);
+        font-size: 0rem;
+    }
+}
+
+@keyframes appear {
+    from {
+        filter: blur(16px);
+        font-size: 0rem;
+    }
+    to {
+        filter: blur(0px);
+        font-size: 1rem;
+    }
+}
+
+.vanish {
+    animation-name: vanish;
+    animation-duration: 0.4s;
+}
+
+.appear {
+    animation-name: appear;
+    animation-duration: 0.4s;
+}
